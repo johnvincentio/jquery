@@ -1,0 +1,15 @@
+{
+  "name": "2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js && zuul --ui tape --local 9966 -- test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.6.2",
+    "zuul": "^3.11.1"
+  }
+}
